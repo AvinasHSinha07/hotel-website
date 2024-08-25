@@ -1,0 +1,9 @@
+.hero {
+    background-image: url('../../public/alex-machado-80sv993lUKI-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    height: 100%;
+    color: white;
+    font-size: 2rem;
+}
