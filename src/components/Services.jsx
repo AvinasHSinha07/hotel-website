@@ -15,22 +15,22 @@ export default function Services() {
           alt="Service Image 1"
           className="object-cover"
         />
-        <div className="absolute xl:left-[200px] lg:left-[120px] 2xl:left-[200px]   md:bottom-8 bottom-0 z-10 flex flex-col justify-center md:bg-[#F7FAF6] bg-[#F7FAF6] bg-opacity-50 md:bg-opacity-100 p-4 pr-12 text-teal-800 max-w-xs">
-          <h2 className="text-base font-bold mb-1">RESTAURANT</h2>
-          <p className="text-[8px] mb-2">
+        <div className="absolute xl:left-[185px] lg:left-[116px] 2xl:left-[185px]   md:bottom-4 bottom-0 z-10 flex flex-col justify-center md:bg-[#F7FAF6] bg-[#F7FAF6] bg-opacity-50 md:bg-opacity-100 p-4  text-teal-800 max-w-xs">
+          <h2 className="md:text-2xl text-lg font-bold mb-1 font-vonique">RESTAURANT</h2>
+          <p className="text-[10px] mb-2 font-nova">
             Aktuelle Speisekarte und edles aus unserem Weinkeller
           </p>
-          <ul className="text-[8px] mb-2">
+          <ul className="text-[12px] mb-2 font-vonique space-y-2">
             <li>Speisekarte</li>
             <li>Weinkarte</li>
             <li>Räumlichkeiten</li>
           </ul>
-          <div className="flex flex-col gap-2">
-            <button className="inline-flex items-center gap-1 bg-[#0A6B43] hover:bg-green-500 text-white font-extralight py-1 px-2 rounded text-[8px]">
+          <div className="flex flex-col gap-2 ">
+            <button className="inline-flex items-center gap-1 bg-[#0A6B43] hover:bg-green-500 font-nova text-white font-extralight py-1 px-2 rounded text-[10px]">
               TISCHRESERVATION
               <GoArrowUpRight className="text-sm" /> {/* React Icon */}
             </button>
-            <button className="inline-flex items-center gap-1 w-3/2 bg-[#AF382D]  font-extralight text-white py-1 px-2 rounded text-[8px]">
+            <button className="inline-flex items-center gap-1 w-3/2 bg-[#AF382D]  font-extralight text-white py-1 px-2 font-nova rounded text-[10px]">
               TAGESMENÜ
               <GoArrowUpRight className="text-sm" /> {/* React Icon */}
             </button>
@@ -46,14 +46,14 @@ export default function Services() {
           alt="Service Image 2"
           className="object-cover"
         />
-        <div className="absolute xl:left-[204px] 2xl:left-[204px] lg:left-[130px] md:bottom-[12px] bottom-0 z-10 md:bg-[#F7FAF6] bg-opacity-50 md:bg-opacity-100 flex flex-col justify-center bg-white p-4 pr-12 text-teal-800 max-w-xs">
-          <h2 className="text-base font-bold mb-1">HOTEL</h2>
-          <p className="text-[8px] mb-2">
+        <div className="absolute xl:left-[205px] 2xl:left-[205px] lg:left-[137px] md:bottom-[12px] lg:bottom-8 bottom-0 z-10 md:bg-[#F7FAF6] bg-opacity-50 md:bg-opacity-100 flex flex-col justify-center bg-white p-6 text-teal-800 max-w-xs">
+          <h2 className="md:text-2xl text-lg font-bold mb-1 font-vonique">HOTEL</h2>
+          <p className="text-[8px] mb-2 font-nova">
             Entdecken Sie wunderschöne Zimmer mit traditionellem Charme
           </p>
 
           <div className="">
-            <button className="flex items-center gap-1 bg-[#0A6B43] hover:bg-green-500 text-white font-extralight py-1 px-3 rounded text-[8px]">
+            <button className="flex items-center gap-1 font-nova bg-[#0A6B43] hover:bg-green-500 text-white font-extralight py-1 px-3 rounded text-[10px]">
               ZIMMERBUCHEN
               <GoArrowUpRight className="text-sm" /> {/* React Icon */}
             </button>
@@ -61,7 +61,7 @@ export default function Services() {
           <div></div>
         </div>
         <div className="absolute -bottom-20 left-0 hidden  z-10 md:flex flex-col justify-center xl:w-[400px] 2xl:w-[400px] lg:w-[300px] py-4 px-4 bg-[#AF382D] text-white xl:max-w-xs">
-          <p className="text-[8px] mb-2 ">
+          <p className="text-[10px] mb-2 font-nova">
             Feiern Sie Ihren unvergesslichen Anlass oder planen Sie Ihr nächstes
             Seminar im Gasthof Hecht.
           </p>
@@ -77,13 +77,13 @@ export default function Services() {
           alt="Service Image 3"
           className="object-cover"
         />
-        <div className="absolute xl:left-52 2xl:left-52 lg:left-40 md:bottom-4 bottom-0 z-10 md:bg-[#F7FAF6] bg-opacity-50 md:bg-opacity-100  flex flex-col justify-center bg-white  p-4 pr-12 text-teal-800 max-w-xs">
-          <h2 className="text-base font-bold mb-1">IHRANLASS</h2>
-          <p className="text-[8px] mb-2 ">
+        <div className="absolute xl:left-52 2xl:left-52 lg:left-40 md:bottom-4 lg:bottom-12 bottom-0 z-10 md:bg-[#F7FAF6] bg-opacity-50 md:bg-opacity-100  flex flex-col justify-center bg-white  p-4  text-teal-800 max-w-xs">
+          <h2 className="md:text-2xl text-lg font-bold mb-1">IHRANLASS</h2>
+          <p className="text-[8px] mb-2 font-nova ">
             Feiern Sie Ihren unvergesslichen Anlass oder planen Sie Ihr nächstes
             Seminar im Gasthof Hecht
           </p>
-          <ul className="text-[8px] mb-2 space-y-2">
+          <ul className="text-[12px] mb-2 font-vonique  space-y-2">
             <li>BENKATTE</li>
             <li>SEMINARE</li>
           </ul>

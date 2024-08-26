@@ -1,9 +1,21 @@
-import { Poppins} from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
-const popins = Poppins({ subsets: ["latin"],weight: ['100','200','300', '400','500', '600', '700', '800','900'],
-  style: ['normal', 'italic',],
- });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  style: ['normal', 'italic'],
+});
+
+const vonique = localFont({
+  src: '../../public/Vonique 92_D.otf',
+  variable: '--font-vonique'
+});
+const nova = localFont({
+  src: '../../public/Proxima Nova Thin.otf',
+  variable: '--font-nova'
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -13,9 +25,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={popins.className} style={{padding: 0}}>
-      
-        {children}</body>
+      <body className={`${vonique.variable} ${nova.className}`  } style={{ padding: 0 }}>
+        {children}
+      </body>
     </html>
   );
 }
