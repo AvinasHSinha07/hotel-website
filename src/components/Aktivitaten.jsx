@@ -5,13 +5,14 @@ import { GoArrowUpRight } from "react-icons/go";
 const Aktivitaten = () => {
   return (
     <div className="bg-white py-10 md:py-20 px-4 md:px-20 text-center">
-      <h1 className="text-3xl md:text-4xl font-vonique font-light text-[#194748] mb-4">
+      <h1 className="text-3xl md:text-4xl font-vonique capitalize font-light text-[#194748] mb-4">
         {/* AKTIVITÄTEN */}
       
-              <span className="font-vonique">AKTIVIT</span>
-              <span className="font-poppins ">Ä</span>
+              {/* <span className="font-vonique">AKTIVIT</span>
+              <span className=" font-light font-sans">Ä</span>
               <span className="font-vonique">TEN</span>
-           
+            */}
+            ausflugsziele
       </h1>
       <p className="text-base  font-novatext-xs sm:text-sm md:text-base lg:text-xl lg:max-w-xl text-center  font-nova text-[#194747] font-extralight md:max-w-sm mx-auto">
         Verbinden Sie Ihren Aufenthalt im Gasthof Hecht mit einem tollen

@@ -41,8 +41,8 @@ const NewsletterSection = () => {
             <Image
               src="/footerlogo.png" // Replace with your logo path
               alt="Logo"
-              width={80} // Adjust the width as needed
-              height={80} // Adjust the height as needed
+              width={176} // Adjust the width as needed
+              height={120} // Adjust the height as needed
             />
           </div>
 
@@ -64,7 +64,7 @@ const NewsletterSection = () => {
               Entspannung. Bekannt für seine raffinierte Küche, erlesene Weine
               und gemütliche Zimmer. Wir freuen uns auf Sie!
             </p>
-            <address className="mt-4">
+            <address className="mt-12">
               <h3 className="capitalize font-vonique text-lg sm:text-xl md:text-2xl">
                 Gasthof Hecht
               </h3>

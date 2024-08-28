@@ -108,7 +108,7 @@ const HeroSection = () => {
 
         <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center px-8 lg:px-24 py-24">
           <div className="text-white md:mt-28 w-full lg:w-1/2 space-y-4">
-            <h1 className="text-5xl md:max-w-lg 2xl:text-8xl lg:text-6xl xl:text-7xl font-extralight capitalize">
+            <h1 className="text-5xl md:max-w-lg 2xl:text-8xl lg:text-6xl font-vonique xl:text-7xl font-extralight capitalize">
               Modern. TRADITIONELL. EINZICARTIC.
             </h1>
             <p className="text-lg 2xl:text-xl font-nova lg:text-base font-light">
