@@ -29,7 +29,6 @@ const HeroSection = () => {
                 height={250}
                 alt="Hotel 1"
                 className="md:w-20 md:h-20 w-12 h-12"
-              
               />
             </div>
 
@@ -97,7 +96,14 @@ const HeroSection = () => {
         </div>
 
         <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center px-8 lg:px-24 py-24">
-          <div className="text-white md:mt-28 w-full lg:w-1/2 space-y-4">
+          <Image
+            src="/Vector-1.png"
+            width={100}
+            height={100}
+            alt="Decorative Image"
+            className="absolute top-56 -left-8 hidden lg:block  object-cover"
+          />
+          <div className="text-white md:mt-28 w-full lg:w-1/2 space-y-4 relative">
             <h1 className="text-5xl md:max-w-lg 2xl:text-8xl lg:text-6xl font-vonique xl:text-7xl font-extralight capitalize">
               Modern. TRADITIONELL. EINZICARTIC.
             </h1>
