@@ -5,7 +5,6 @@ import { GoArrowUpRight } from "react-icons/go";
 const UnsereEvents = () => {
   return (
     <div className="bg-teal-800 text-white pt-10 px-4 md:px-20">
-      {/* Header Section */}
       <h1 className="text-3xl md:text-6xl text-white font-light 4 text-center font-vonique lg:mt-12">
         UNSERE EVENTS
       </h1>
@@ -17,8 +16,10 @@ const UnsereEvents = () => {
       <div className="flex flex-col md:flex-row items-center mt-10  md:mt-20 md:pt-10 justify-center xl:justify-center gap-10 xl:gap-12 md:gap-16">
         <div className="flex flex-col items-center">
           <div className="flex items-start justify-start gap-4 mb-4">
-            <p className="text-xl md:text-3xl lg:text-3xl font-extralight font-vonique">Hot Stone 2024</p>
-            <GoArrowUpRight className="text-2xl md:text-3xl" /> {/* React Icon */}
+            <p className="text-xl md:text-3xl lg:text-3xl font-extralight font-vonique">
+              Hot Stone 2024
+            </p>
+            <GoArrowUpRight className="text-2xl md:text-3xl" />
           </div>
           <div className="flex items-end h-[250px] md:h-[300px] relative">
             <div className="absolute bottom-14 -left-24 md:bottom-16 md:-left-24 pr-2 flex items-center">
@@ -28,7 +29,7 @@ const UnsereEvents = () => {
             </div>
             <div className="w-48 h-full md:w-60">
               <Image
-                src="/event-1.png" // Replace with your image path
+                src="/event-1.png"
                 alt="Hot Stone 2024"
                 width={300}
                 height={300}
@@ -39,8 +40,10 @@ const UnsereEvents = () => {
         </div>
         <div className="flex flex-col items-center">
           <div className="flex items-start justify-start gap-4 mb-4">
-            <p className="text-xl md:text-3xl lg:text-3xl font-extralight font-vonique">Event April-Dez 2024</p>
-            <GoArrowUpRight className="text-2xl md:text-3xl lg:text-3xl" /> {/* React Icon */}
+            <p className="text-xl md:text-3xl lg:text-3xl font-extralight font-vonique">
+              Event April-Dez 2024
+            </p>
+            <GoArrowUpRight className="text-2xl md:text-3xl lg:text-3xl" />
           </div>
           <div className="flex items-end h-[250px] md:h-[300px] relative">
             <div className="absolute bottom-24 -left-40 md:bottom-[125px] md:-left-40 pr-2 flex items-center">
@@ -51,7 +54,7 @@ const UnsereEvents = () => {
             </div>
             <div className="w-48 h-full md:w-60">
               <Image
-                src="/event-2.png" // Replace with your image path
+                src="/event-2.png"
                 alt="Hot Stone 2024"
                 width={300}
                 height={300}

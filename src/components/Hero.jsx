@@ -18,10 +18,8 @@ const HeroSection = () => {
           backgroundImage: "url('/alex-machado-80sv993lUKI-unsplash.jpg')",
         }}
       >
-        {/* Background Overlay */}
         <div className="absolute inset-0 bg-[#1A4A4D] opacity-90"></div>
 
-        {/* Header with Logo and Icons */}
         <div>
           <div className="absolute top-4 left-0 right-0 flex justify-between items-center px-8 lg:px-24 md:py-8 z-40">
             <div className="flex items-center">
@@ -31,10 +29,10 @@ const HeroSection = () => {
                 height={250}
                 alt="Hotel 1"
                 className="md:w-20 md:h-20 w-12 h-12"
+              
               />
             </div>
 
-            {/* Nav Items */}
             <div className="hidden md:flex space-x-8 font-vonique text-white">
               <a href="#hotel" className="hover:text-gray-300">
                 Hotel
@@ -46,15 +44,8 @@ const HeroSection = () => {
                 Ihr Anlass
               </a>
               <a href="#uber-uns" className="hover:text-gray-300 -mt-1">
-                {/* ber uns */}
-             
-        {/* AKTIVITÄTEN */}
-      
-              {/* <span className="font-vonique">AKTIVIT</span> */}
-              <span className="font-poppins ">Ü</span>
-              <span className="font-vonique">ber uns</span>
-           
-    
+                <span className="font-poppins ">Ü</span>
+                <span className="font-vonique">ber uns</span>
               </a>
             </div>
 
@@ -69,7 +60,6 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Menu Overlay */}
           {isMenuOpen && (
             <div className="fixed font-vonique inset-0 bg-black opacity-70  z-30 flex flex-col items-center justify-center transition duration-300 ease-in-out">
               <div className="text-white text-center space-y-8 text-2xl tracking-wide">
@@ -151,27 +141,23 @@ const HeroSection = () => {
         </div>
 
         <div className="relative z-10">
-  {/* <div className="absolute inset-0 z-0"> */}
-    <Image
-      src="/Vector.png" // Replace with your background image path
-      layout="responsive"
-      width={1920}
-      height={200}
-      alt="Background Image"
-      className="w-full absolute -top-4"
-    />
-  {/* </div> */}
-  <Image
-    src="/hero-bottomm.png"
-    layout="responsive"
-    width={1920}
-    height={200}
-    alt="Bottom Image"
-    className="w-full relative z-10"
-  />
-</div>
+          <Image
+            src="/Vector.png"
+            width={1920}
+            height={200}
+            alt="Background Image"
+            className="w-full relative -top-[20px]"
+          />
 
-        {/* Circle Button */}
+          <Image
+            src="/hero-bottomm.png"
+            width={1920}
+            height={200}
+            alt="Bottom Image"
+            className="w-full absolute z-10 2xl:bottom-0 bottom-0"
+          />
+        </div>
+
         <div className="relative z-10">
           <a
             href="#down-section"

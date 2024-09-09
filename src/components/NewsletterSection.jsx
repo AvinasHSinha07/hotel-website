@@ -5,15 +5,12 @@ const NewsletterSection = () => {
   return (
     <div className="relative w-full">
       <Image
-        src="/footer-img.jpeg" // The path to your uploaded image
+        src="/footer-img.jpeg"
         alt="Background Image"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
+        fill
         className="-z-10"
       />
 
-      {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#ffffff] from-10% to-black/60 bg-opacity-80 z-0"></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 py-16 lg:py-24">
@@ -36,17 +33,10 @@ const NewsletterSection = () => {
         </div>
 
         <div className="relative z-10 w-full max-w-6xl mt-16 lg:mt-20 flex flex-col sm:flex-row items-center justify-between py-4 px-4 md:px-8 lg:px-24">
-          {/* Logo Section */}
           <div className="flex-shrink-0 mb-4 sm:mb-0">
-            <Image
-              src="/footerlogo.png" // Replace with your logo path
-              alt="Logo"
-              width={176} // Adjust the width as needed
-              height={120} // Adjust the height as needed
-            />
+            <Image src="/footerlogo.png" alt="Logo" width={176} height={120} />
           </div>
 
-          {/* Social Media Icons */}
           <div className="flex items-center gap-4 text-white">
             <FaFacebook size={24} className="hover:text-blue-500" />
             <FaTwitter size={24} className="hover:text-blue-400" />
@@ -57,7 +47,6 @@ const NewsletterSection = () => {
         <hr className="w-full max-w-6xl bg-white border-white border-t-2 mt-4 mb-4" />
 
         <div className="relative z-10 w-full max-w-6xl flex flex-col md:flex-row justify-between gap-8 md:gap-10 px-4 md:px-8 lg:px-24 mt-8 text-white">
-          {/* Column 1: Gasthof Hecht Info */}
           <div className="md:w-1/4 flex flex-col items-start text-left">
             <p className="text-xs sm:text-sm lg:text-sm font-nova leading-relaxed">
               Gasthof Hecht mit einer Tradition des Genusses und der
@@ -74,7 +63,6 @@ const NewsletterSection = () => {
             </address>
           </div>
 
-          {/* Column 2: Links */}
           <div className="md:w-1/4 flex flex-col items-start text-left">
             <h2 className="text-lg font-vonique sm:text-xl md:text-2xl font-light mb-4 sm:mb-6">
               LINKS
@@ -90,10 +78,11 @@ const NewsletterSection = () => {
             </a>
           </div>
 
-          {/* Column 3: Öffnungszeiten */}
           <div className="md:w-1/4 flex flex-col items-start text-left">
             <h2 className="text-lg sm:text-xl md:text-2xl font-light -mt-1 mb-4 sm:mb-6">
-              <span className="font-poppins text-lg sm:text-xl md:text-2xl font-light">Ö</span>
+              <span className="font-poppins text-lg sm:text-xl md:text-2xl font-light">
+                Ö
+              </span>
               <span className="font-vonique">FFNUNGSZEITEN</span>
             </h2>
 
@@ -109,7 +98,6 @@ const NewsletterSection = () => {
             </p>
           </div>
 
-          {/* Column 4: Kontakt */}
           <div className="md:w-1/4 flex flex-col items-start text-left">
             <h2 className="text-lg font-vonique sm:text-xl md:text-2xl font-light mb-4 sm:mb-6">
               KONTAKT

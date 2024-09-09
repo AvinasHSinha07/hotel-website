@@ -6,13 +6,7 @@ const Aktivitaten = () => {
   return (
     <div className="bg-white py-10 md:py-20 px-4 md:px-20 text-center">
       <h1 className="text-3xl md:text-4xl font-vonique capitalize font-light text-[#194748] mb-4">
-        {/* AKTIVITÄTEN */}
-      
-              {/* <span className="font-vonique">AKTIVIT</span>
-              <span className=" font-light font-sans">Ä</span>
-              <span className="font-vonique">TEN</span>
-            */}
-            ausflugsziele
+        ausflugsziele
       </h1>
       <p className="text-base  font-novatext-xs sm:text-sm md:text-base lg:text-xl lg:max-w-xl text-center  font-nova text-[#194747] font-extralight md:max-w-sm mx-auto">
         Verbinden Sie Ihren Aufenthalt im Gasthof Hecht mit einem tollen
@@ -20,7 +14,6 @@ const Aktivitaten = () => {
       </p>
 
       <div className="flex flex-col md:flex-row justify-center md:justify-around 2xl:justify-center md:px-12 md:mt-20 mt-8 items-center gap-8">
-        {/* Images */}
         <div className="flex flex-col sm:flex-row gap-4">
           <div className="flex flex-col gap-8">
             <div className="w-48 h-60 mx-auto">
@@ -65,9 +58,7 @@ const Aktivitaten = () => {
           </div>
         </div>
 
-        {/* Activities */}
         <div className="flex flex-col items-   justify-between gap-10 md:gap-20 md:ml-8 text-left w-full md:w-auto">
-          {/* First Activity */}
           <div className="flex flex-col items-start space-y-4">
             <div className="flex items-start justify-start w-2/3 md:w-auto">
               <h3 className="text-base md:text-xl lg:text-2xl font-vonique font-semibold text-gray-800 md:w-8/12 w-full ">
@@ -83,7 +74,6 @@ const Aktivitaten = () => {
             </div>
           </div>
 
-          {/* Second Activity */}
           <div className="flex flex-col items-start space-y-4">
             <div className="flex items-start justify-start w-2/3 md:w-auto md:gap-8 gap-8">
               <h3 className="text-base font-vonique md:text-xl lg:text-2xl font-semibold text-gray-800 md:w-5/12 w-1/3 ">
@@ -93,8 +83,8 @@ const Aktivitaten = () => {
             </div>
             <div className="mt-2 text-[#194747]">
               <p className="text-xs font-nova md:text-xs md:w-3/4">
-                Entspannung wie am Toten Meer. 25 Tonnen Salz aus dem
-                Himalaya, ein farbwechselnder Sternenhimmel...
+                Entspannung wie am Toten Meer. 25 Tonnen Salz aus dem Himalaya,
+                ein farbwechselnder Sternenhimmel...
               </p>
             </div>
           </div>
