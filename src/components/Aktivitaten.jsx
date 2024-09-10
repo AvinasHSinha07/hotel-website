@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Aktivitaten = () => {
   return (
-    <div className="bg-white py-10 md:py-20 px-4 md:px-20 text-center">
+    <div className="bg-white py-10 md:py-20 px-4 lg:px-20 text-center">
       <h1 className="text-3xl md:text-4xl font-vonique capitalize font-light text-[#194748] mb-4">
         ausflugsziele
       </h1>

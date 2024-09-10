@@ -104,10 +104,10 @@ const HeroSection = () => {
             className="absolute top-56 -left-8 hidden lg:block  object-cover"
           />
           <div className="text-white md:mt-28 w-full lg:w-1/2 space-y-4 relative">
-            <h1 className="text-5xl md:max-w-lg 2xl:text-8xl lg:text-6xl font-vonique xl:text-7xl font-extralight capitalize">
+            <h1 className="text-4xl md:max-w-lg 2xl:text-8xl lg:text-6xl font-vonique xl:text-7xl font-extralight capitalize">
               Modern. TRADITIONELL. EINZICARTIC.
             </h1>
-            <p className="text-lg 2xl:text-xl font-nova lg:text-base font-light">
+            <p className="text-xs 2xl:text-xl font-nova lg:text-base font-light">
               Modern, weil das Hotel komplett renoviert wurde und nun in
               fröhlichem und hellen Design erstrahlt. Traditionell, weil wir
               jeden Gast wertschätzen, mit Liebe zum Detail und gastronomischem

@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 export default function Services() {
   return (
     <div className="bg-[#F6FBF6] py-12 lg:py-32 xl:py-40 xl:-mt-72 lg:-mt-60 flex items-center justify-center">
-      <div className="flex flex-col md:flex-row justify-start items-start gap-8 lg:gap-[60px] xl:gap-32 2xl:gap-32">
+      <div className="flex flex-col md:flex-row justify-start items-start gap-4 md:gap-4 lg:gap-[60px] xl:gap-32 2xl:gap-32">
         <div className=" flex justify-center h-80 w-60 relative">
           <Image
             src="/resturant.jpeg"
